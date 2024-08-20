@@ -8,6 +8,7 @@ headers = {
         'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.186 Safari/537.36', 
         'referer': 'https://web.classplusapp.com/login', 
         'device-id': "3Gjdj6hdhdjUi", 
+        'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEwMTI0NzM0LCJvcmdJZCI6IjU3MzEzOCIsInR5cGUiOjEsIm1vYmlsZSI6IjkxODkwMjU4OTA0MyIsIm5hbWUiOiJOaXRpbiAiLCJlbWFpbCI6Im5pdGlucmFvamkyMDAxQGdtYWlsLmNvbSIsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoia3VqaGhrIiwiaXNEaXlTdWJhZG1pbiI6MCwiaWF0IjoxNzIzNzkzMjM5LCJleHAiOjE3MjQzOTgwMzl9.o6Munmd3eOGy8FcDpE8dHF3qA4KDLBUmLdBwXMFnj9zGTnaOebXttv709yc5f8hW',
     }
 
 params = (
