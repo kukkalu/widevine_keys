@@ -9,7 +9,7 @@ def get_pssh(mpd_url):
         mpd = json.loads(json.dumps(xml))
         periods = mpd['MPD']['Period']
     except Exception as e:
-        pssh = input(f'\nUnable to find PSSH in MPD: {e}. \nEdit getPSSH.py or enter PSSH manually: ')
+        pssh =  'AAAAWnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADoiMjc2NjQ2ZjYzNjk3MDY4NjU3MjYwMzAwMjkzNDQxODQ5MjNhZjVhZjMzMjI1NjY3MDFlSOPclZsG'
         return pssh
     try: 
         if isinstance(periods, list):
@@ -43,5 +43,5 @@ def get_pssh(mpd_url):
     except Exception:
         pass                      
     if pssh == '':
-        pssh = input('Unable to find PSSH in mpd. Edit getPSSH.py or enter PSSH manually: ')
+        pssh = 'AAAAWnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADoiMjc2NjQ2ZjYzNjk3MDY4NjU3MjYwMzAwMjkzNDQxODQ5MjNhZjVhZjMzMjI1NjY3MDFlSOPclZsG'
     return pssh
