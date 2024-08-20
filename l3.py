@@ -16,8 +16,8 @@ from cdm.formats import wv_proto2_pb2 as wv_proto2
 from urllib.parse import urlparse
 import logging
 # logging.basicConfig(level=logging.DEBUG)
-MDP_URL = input('\nInput MPD URL: ')
-lic_url = input('License URL: ')
+MDP_URL = "https://drmcdni.classplusapp.com/streams/6612dae987598993d628f936/2969836581eebad0cab33732b3048d08.mpd?key=172416043002621-42-0-55d0158fdac6dad2b560b492395da482"
+lic_url = "https://india-drm.sdmc.tv/getlicense?token=eyJzZWNyZXRfaWQiOiJPMU0zVVMzRERNOUwyOUcxNVNDTlVMSjE2MjdDTkE1UyIsImRybV9zeXN0ZW0iOiJXSURFVklORSIsInVpZCI6IjkyOTkzMjAwMzkzMjY0NDE4NDQxIiwiY2lkIjoiMjk2OTgzNjU4MWVlYmFkMGNhYjMzNzMyYjMwNDhkMDgiLCJ0aW1lc3RhbXAiOjE3MjQxNjA0MzAsImhhc2giOiJSVFhlR0FDUFFsQlVuYnFDazVCdzdnTm1LYVZHSmllREJKazh5d3ZKYStNPSIsInBvbGljeSI6Ik94a3FrYW8vb1diMEdwd2NVZUttQ0hyeXROK2FGaDJDbjM2NjlUWUtqeUNNdlJLRmdhUzEwRnNwUTdaSTdPNlJGbmt4cjB5bzhuNEExcXh5cHFMUHVJa1FCdmxDTnlrWHV1Q05RaFZnaWtpOE5UTTdmZEpCcDFuV0gvcGtiOVA5YVNvcGlWZWZUcGIyZWliK29rajhRUHQ4bVJRU2J4MmdlVHNqbGFxVXZMdz0ifQ=="
 # hardcoded for kinopoisk.ru
 # lic_url = 'https://widevine-proxy.ott.yandex.ru/proxy'
 responses = []
